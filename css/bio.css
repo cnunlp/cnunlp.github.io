@@ -1,1 +1,105 @@
+@import url(http://fonts.googleapis.com/css?family=Abel);
+
+body {
+background-color:gray;
+  font-family: 'Abel', sans-serif; 
+
+}
+
+li {
+	margin: 1em 0;
+}
+li ul li { 
+	margin: 0em 0;
+ }
+.topic {
+	diplay:inline;
+	color:red;
+}
+
+.focus {
+	text-align: center;
+	padding:.5cm 0cm .5cm 1cm;
+	border: 1px dotted #DF01D7;
+}
+
+.venue {
+	font-weight:bold;
+}
+
+.content {
+	background-color:white;
+
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 50px;
+	border: solid;
+}
+
+#catalogue table {
+border-collapse: collapse;
+
+}
+
+#catalogue td {
+	border-bottom: 1px solid #CCC;
+	border-left: 1px solid #CCC;
+	border-top: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	padding: .5em .5em;
+}
+#menu1 {
+	width:700px;
+	#background-color:blue;
+	font-size:15px;
+	text-align:center;
+	}
+
+h1 a, h1 a:visited {
+	text-decoration:none;
+	color:black;
+}
+h1 a:hover {
+	text-decoration:none;
+	color: F87217;
+}
+ul#navlist
+{
+margin-left: 0;
+padding-left: 0;
+white-space: nowrap;
+}
+
+#navlist li
+{
+display:inline;
+list-style-type: none;
+padding:10px;
+}
+
+#navlist a { padding: 3px 10px; }
+
+#navlist a:link, #navlist a:visited
+{
+color: black;
+#background-color: #036;
+text-decoration: none;
+}
+
+#navlist a:hover
+{
+color: F87217;
+#background-color: #369;
+text-decoration: none;
+}
+
+#left {
+	float:left;
+	width:200px;
+}
+#right {
+	float:right;
+	width:200px;
+}
 
