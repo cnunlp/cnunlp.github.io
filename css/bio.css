@@ -80,7 +80,7 @@ padding:10px;
 
 #navlist a { padding: 3px 10px; }
 
-#navlist a:link, #navlist a:visited
+#navlist a:link
 {
 color: black;
 #background-color: #036;
@@ -103,3 +103,7 @@ text-decoration: none;
 	width:200px;
 }
 
+a:link {color: #0000FF}     /* 未访问的链接 */
+a:visited {color: #0000FF}  /* 已访问的链接 */
+a:hover {color: #0000FF}    /* 当有鼠标悬停在链接上 */
+a:active {color: #0000FF}   /* 被选择的链接 */
